@@ -1,3 +1,9 @@
+// Esta es la solucion 1
+// Vuelve al ultimo commit con este comando "git checkout <nombre de tu rama>"
+// En la linea 1 de main.js Reemplaza formularioBusca por formularioBusqueda
+// Confirma los cambios (haz un commit)
+// Haz un push a tu rama
+// Haz un pull request (PR) a main
 document.getElementById('formularioBusca').addEventListener('submit', function (event) {
     event.preventDefault();
 
