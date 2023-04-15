@@ -1,9 +1,4 @@
-// Esta es la solucion 1
-// Vuelve al ultimo commit con este comando "git checkout <nombre de tu rama>"
-// En la linea 1 de main.js Reemplaza formularioBusca por formularioBusqueda
-// Confirma los cambios (haz un commit)
-// Haz un push a tu rama
-// Haz un pull request (PR) a main
+alert("Te digo que no hay nada, no pierdas tu tiempo")
 document.getElementById('formularioBusca').addEventListener('submit', function (event) {
     event.preventDefault();
 
@@ -196,7 +191,7 @@ document.getElementById('formularioBusca').addEventListener('submit', function (
         alert("Debe ingresar un número entre 1 y 732")
         document.getElementById("formularioBusqueda").reset();
     };
-
+//¿Sigues aquí?
 })
 
 
