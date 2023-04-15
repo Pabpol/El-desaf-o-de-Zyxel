@@ -1,4 +1,4 @@
-document.getElementById('formularioBusca').addEventListener('submit', function (event) {
+document.getElementById('formularioBusqueda').addEventListener('submit', function (event) {
     event.preventDefault();
 
 
