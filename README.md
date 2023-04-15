@@ -6,8 +6,8 @@
       ,88"      `8b   d8'     )888(   8PP""""""" 88  
      88"         `8b,d8'    ,d8" "8b, "8b,   ,aa 88  
      888888888888  Y88'    8P'     `Y8 `"Ybbd8"' 88  
-                     d8'                               
-                    d8'                                 
+                    d8'                               
+                     d8'                                 
 
 ¡Hola chicos y chicas! Soy Zyxel, el duende hacker. He hackeado el proyecto que Pablo les había preparado para trabajar con Git y GitHub. Pero no se preocupen, ¡no todo está perdido! He dejado pistas en distintos commits para que puedan encontrar las soluciones a los problemas que he causado.
 
