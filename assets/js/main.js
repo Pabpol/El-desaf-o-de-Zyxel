@@ -13,7 +13,7 @@ document.getElementById('formularioBusqueda').addEventListener('submit', functio
         fetch(`https://www.superheroapi.com/api.php/10226918880178853/${valueInput}`).then(response => response.json()).then(superHero => {
 
             let nombre = superHero.name;
-            let imagen = superHero.image;
+            let imagen = superHero.image.url;
             let peso = superHero.appearance.weight[1];
             let estatura = superHero.appearance.height[1];
             let especie = superHero.appearance.race;
