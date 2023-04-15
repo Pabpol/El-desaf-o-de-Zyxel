@@ -1,3 +1,4 @@
+alert("Mentí, la solución 3 está en el index.html")
 document.getElementById('formularioBusca').addEventListener('submit', function (event) {
     event.preventDefault();
 
@@ -13,12 +14,6 @@ document.getElementById('formularioBusca').addEventListener('submit', function (
         fetch(`https://www.superheroapi.com/api.php/10226918880178853/${valueInput}`).then(response => response.json()).then(superHero => {
 
             let nombre = superHero.name;
-            // Esta es la segunda solución
-            // Vuelve al último commit con git checkout <nombre de tu rama>
-            // Para obtener la imagen del superHero debes agregar .url después de image en la linea 16 (superHero.image.url)
-            // Haz un commit de los cambios
-            // Haz un push a tu rama
-            // Haz un Pulll request
             let imagen = superHero.image;
             let peso = superHero.appearance.weight[1];
             let estatura = superHero.appearance.height[1];
