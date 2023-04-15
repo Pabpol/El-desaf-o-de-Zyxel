@@ -1,4 +1,4 @@
-alert("Mentí, la solución 3 está en el index.html")
+alert("Mentí, la solución está en el commit anterior")
 document.getElementById('formularioBusca').addEventListener('submit', function (event) {
     event.preventDefault();
 
